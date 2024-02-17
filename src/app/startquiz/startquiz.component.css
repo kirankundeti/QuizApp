@@ -1,0 +1,40 @@
+.container{
+    position: fixed;
+    margin: 8% 0 0 4%;
+    width: 100%;
+    padding: 2% 0 2% 3% ;
+    /* border-radius: 5px; */
+    /* box-shadow: 0px 0px 3px 0.1px grey; */
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.instructions{
+    width: 100%;
+}
+.main-head{
+    border-bottom: 1px solid grey;
+    margin: 0 0 3% 0;
+}
+.rules{
+    margin: 4% 0 0 0;
+}
+.form-control{
+    width: 60%;
+}
+.name-container label{
+    font-size: small;
+    margin: 0 0 0 1%;
+}
+.name-container{
+    margin: 5% 0 0 0;
+}
+.name-container button{
+    margin: 3% 0 0 0;
+}
+.bg-img{
+    width: 40%;
+}
+.bg-img img{
+    width: 90vh;
+}

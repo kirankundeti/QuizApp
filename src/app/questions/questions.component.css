@@ -1,0 +1,89 @@
+.container{
+    position: fixed;
+    margin: 8% 0 0 1%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    /* box-shadow: 0px 0px 3px 0.1px grey; */
+}
+.firstrow, .secondrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.8px solid grey;
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+}
+.secondrow{
+    padding:  1% 0;
+}
+.duration{
+    display: flex;
+}
+.duration .mat-icon{
+    font-size: 20px;
+    margin: 2px 0 0 1px;
+}
+#question-container{
+    padding: 2%;
+    margin-top: 2%;
+}
+#option-container{
+    margin-top: 1%;
+    padding: 1% 2%;
+}
+.form-check, .form-check-label{
+    padding: 0;
+    cursor: pointer;
+}
+.options{
+    margin-top: 3%;
+}
+#option-container:hover{
+    background-color: rgba(163, 159, 159, 0.277);
+}
+.btn-group{
+    margin: 3% 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.btn1, .btn2{
+    font-size: 17px;
+}
+.btn-group .mat-icon{
+    margin-bottom: 4%;
+}
+.win-logo{
+    width: 20%;
+    margin: 0;
+}
+.win-logo img{
+    width: 70vh;
+}
+.quiz-content{
+    width: 80%;
+    height: 100%;
+    /* box-shadow: 0px 0px 3px 0.1px grey; */
+    padding: 0 3%;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.score-card{
+    width: 80%;
+}
+.score-content{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 30px;
+    align-items: center;
+}
+.score-content h1{
+    font-size: 50px;
+    margin-bottom: 2%;
+    color: #FF4500;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+}

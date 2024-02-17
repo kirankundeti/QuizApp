@@ -1,0 +1,36 @@
+<div class="page">
+<div class="toolbar-container">
+    <div class="logo" routerLink="/home">
+        <img class="logo-png" alt="logo" src="assets\images\light-bulb-idea.svg">
+        <span class="text-e">E<span class="text-quiz">quiz</span></span>
+    </div>
+    <mat-form-field class="domain">
+        <mat-label>Select Domain</mat-label>
+        <mat-select>
+          <mat-option value="1" routerLink="/domain/electricalmachines">Electrical Machines</mat-option>
+          <mat-option value="2">Electrical Circuits</mat-option>
+          <mat-option value="3">Control Systems</mat-option>
+          <mat-option value="4">Power Systems</mat-option>
+          <mat-option value="5">Electrical Measurements</mat-option>
+          <mat-option value="6">Electrical drives</mat-option>
+          <mat-option value="7">Electromagnetic Fields</mat-option>
+          <mat-option value="8">Electrical Utilization</mat-option>
+          <mat-option value="9">Power Electronics</mat-option>
+        </mat-select>
+      </mat-form-field>      
+        <div class="searchbar-container">
+        <div class="searchbar">
+            <mat-icon>search</mat-icon>
+            <input type="text" class="searchbox" placeholder="Search...">
+        </div>
+        <div class="search-icon">
+            <mat-icon>search</mat-icon>
+        </div>
+    </div>
+    <div class="btn">
+    <button mat-raised-button  routerLink="/login" color="warn">Login</button>
+    <button mat-raised-button routerLink="/register" color="warn">Register</button>
+    </div>
+</div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,9 @@
+.card-body{
+    padding: 0;
+    width: 90%;    
+    margin: 2% 0 0 -1%;
+    position: fixed;
+}
+.form-check-input{
+    margin: 0.9% 0% 0 -70%;
+}
